@@ -6,16 +6,16 @@
 	margin-bottom: 70px;
 }
 
-.photo img {
+/* .photo img {
 	display: none;
-}
+} */
 
 .instafeed {
 	width: 640px;
 	height: 620px;
 	overflow: hidden;
 	transition: opacity 1s ease-in, box-shadow 3s ease-in;
-	opacity: 0;
+	/* opacity: 0; */
 }
 
 .instafeed a {
@@ -24,5 +24,5 @@
 
 .shadowed {
 	opacity: 1;
-	box-shadow: 0px 18px 55px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 18px 55px 0px rgba(0, 0, 0, 0.9);
 }

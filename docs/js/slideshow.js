@@ -6,9 +6,7 @@ $(document).ready(function(){
 
 	function showPhotos(){
 		var i;
-		var slides = $('.photo img');
-		console.log(slides);
-		console.log(slides.length);
+		var slides = $('#instafeed a');
 
 		for( i = 0; i < slides.length; i++ ){
 			console.log(i);
@@ -22,7 +20,7 @@ $(document).ready(function(){
 		}
 		$(slides[slideIndex - 1]).show();
 
-		setTimeout(showPhotos, 500)
+		setTimeout(showPhotos, 100)
 
 	}
 
