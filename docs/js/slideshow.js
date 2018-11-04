@@ -9,12 +9,12 @@ $(document).ready(function(){
 		var slides = $('#instafeed a');
 
 		for( i = 0; i < slides.length; i++ ){
-			console.log(i);
+			/*console.log(i);*/
 			$(slides[i]).hide();
 		}
 
 		slideIndex++;
-		console.log(slideIndex);
+		/*console.log(slideIndex);*/
 		if ( slideIndex > slides.length ) {
 			slideIndex = 1;
 		}

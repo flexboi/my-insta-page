@@ -5,6 +5,7 @@
 	right: 20px;
 	top: 20px;
 	font-size: 80px;
+	color: #fff;
 }
 
 .audio-controls a {
@@ -18,5 +19,9 @@
 }
 
 .audio-controls a:hover {
-	opacity: 0.6;
+	opacity: 0.8;
+}
+
+.audio-element {
+	display: none;
 }
